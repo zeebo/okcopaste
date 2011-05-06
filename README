@@ -1,0 +1,7 @@
+Install instructions
+
+1. Clone into your Packages directory
+2. Create a private.py with settings:
+	domain = '<domain>'
+	token = '<token>'
+3. Bind a key you like to the command 'okco_paste' in sublime

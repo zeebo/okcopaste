@@ -5,3 +5,5 @@ Install instructions
 	domain = '<domain>'
 	token = '<token>'
 3. Bind a key you like to the command 'okco_paste' in sublime
+	Edit your User key map and add this between the []'s:
+	{ "keys": ["super+shift+p"], "command": "okco_paste" }

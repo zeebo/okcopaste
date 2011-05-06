@@ -1,8 +1,12 @@
 import sublime, sublime_plugin
 import httplib, urllib, json
 
-domain = 'pastoo.dev'
-token = '0'*40
+
+from private import domain, token
+#in a file called private.py, add
+# domain = '<domain>'
+# token = '<your token>''
+
 
 def paste(data, domain, token):
 	conn = httplib.HTTPConnection(domain)
